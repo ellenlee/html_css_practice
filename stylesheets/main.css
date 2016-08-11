@@ -1,0 +1,181 @@
+body {
+	background-color: #fff;
+	font-family: 'Helvetica','Gill Sans';
+}
+
+
+.container {
+	width: 900px; 
+	display: block;	  
+	margin: 0 auto;  
+
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* ---- header ---- */
+
+#header,
+#banner {
+	background-color: #8afdf5;
+	text-align: center;
+}
+
+#logo { 
+	float: left;
+	line-height: 0; 
+}
+
+#nav-header {
+	float: right;
+}
+
+#nav-header ul {
+	list-style: none;
+	margin: 0px;
+	line-height: 80px;
+}
+
+#nav-header li {
+	float: left;
+	background-color: inherit;
+}
+
+#nav-header a ,
+.nav a{
+	padding: 0 15px; 
+	color: #000;
+	font-size: 9px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a:hover {
+	color: #8afdf5;
+}
+
+/* ---- header ---- */
+
+#banner h1 {
+	margin: 0; padding: 60px 0 ;
+
+	color: white;
+	font-size: 48px; 
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+/* ---- portfolio header ---- */
+
+#portfolio {
+	margin: 100px 0;
+	background-color: white;
+	text-align: center;
+}
+
+#portfolio-header {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#portfolio-header h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.sub {
+	font-size: 12px;
+	font-family: 'Times new roman';
+	font-weight: normal;
+	font-style: italic;
+}
+
+#portfolio-header hr {
+	width: 100px; 
+	border: 1.5px solid black;
+}
+
+
+.portfolio-nav {
+	margin: 0 auto;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0px;
+	line-height: 80px;
+	-webkit-padding-start: 0px;
+}
+
+.nav li{
+	background-color: inherit;
+	display: inline;
+}
+
+/* ---- portfolio ---- */
+
+.portfolio img {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 33.3%;
+	float: left;
+	padding: 5px;
+
+}
+
+.load-more {
+	font-size: 12px;
+	margin: 20px auto;
+	text-transform: uppercase;
+
+}
+
+/* ---- footer ---- */
+
+#footer {
+	background-color: #fed96e;
+	width: 100%;
+	padding: 0px;
+
+}
+
+#footer .container {
+	width: 620px;
+	display: inline;
+	text-align: center;
+	margin: 0 auto;  
+}
+
+#footer div.nav ul {
+	line-height: 0px;
+}
+
+#footer div.nav {
+	display: inline;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+
+#footer h2 {
+	padding-top: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+#copyright {
+		font-size: 12px;
+	font-family: 'Times new roman';
+	font-weight: normal;
+	font-style: italic;
+	padding-bottom: 20px;
+}
