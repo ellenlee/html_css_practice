@@ -1,0 +1,339 @@
+body {
+	background-color: white;}
+
+
+.container {
+	width: 1000px; 
+	display: block;	  
+	margin: 0 auto;  
+
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* ---- header ---- */
+
+#header .container {
+	background-color: #31313F;}
+
+#header {
+	background-color: #31313F;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+
+}
+
+#logo { 
+	float: left;
+	line-height: 0; 
+}
+
+#nav {
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0px;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+#nav li {
+	float: left;
+	background-color: inherit;	
+	margin-right: 24px;
+}
+
+
+#nav a {
+	padding: 3px 8px; 
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+#nav a:hover {
+	border: 1px solid white;
+	border-radius: 4px;
+
+}
+
+/* ---- banner ---- */
+
+
+.banner {
+	background-color: #31313F;
+	width: 100%;
+	height: 100vh;
+		color: white;
+}
+
+.banner-container {
+	position: relative;
+	top:50%;
+	background-color: rgba(0,0,0,.3);
+}
+
+.banner-container .clearfix {
+	float: none;
+}
+
+.banner-container > div {
+	float: left;
+
+}
+
+.banner-container img {
+	width: 100%;
+	height: auto;
+}
+
+.banner .left, .banner .right {
+	width: 30%;
+	font-size: 120px;
+	font-weight: 100;
+	box-sizing: border-box;
+
+}
+
+.banner .left {
+	text-align: left;
+	padding-left: 30px;
+
+}
+
+.banner .right {
+	text-align: right;
+	padding-right: 30px;
+}
+
+
+.banner .title {
+	display: inline;
+	padding: 30px 0;
+	width: 40%;
+	text-align: center;
+	background-color: rgba(0,0,0,.6);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.banner .title h3 {
+	font-weight: 200;
+
+}
+
+.banner h3.subtitle {
+	font-size: 14px;
+}
+
+.banner .title h3:first-chlid {
+	margin-top: 0;
+}
+
+.banner .title h3:last-chlid {
+	margin-bottom: 0;
+}
+
+/* ---- Features ---- */
+
+#features {
+	margin-top: 20px;
+}
+
+#features .container {
+	width: 900px;
+	display: block;	  
+	margin: 0 auto;  
+}
+
+.feature {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 300px;
+	float: left;
+	padding: 20px;
+}
+
+.feature .title {
+	color: #23394B;
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+.feature .title > img, .feature .title > h3 {
+	float: left;
+}
+.feature .title > img {
+	padding-right: 5px;
+	font-weight: 100;
+}
+
+.feature p {
+	font-size: 12px;
+	color: #BEC6C8;
+	line-height: 180%;
+}
+
+
+
+/* ---- portfolio ---- */
+
+#portfolio {
+	background-color: #23394B;
+	color: white;
+	padding: 0 ;
+	text-align: center;
+}
+
+#portfolio .container {
+	width: 640px;
+		padding-top: 20px;
+}
+
+#portfolio h2 {
+	font-weight: 100;
+	text-transform: capitalize;
+}
+
+#portfolio p {
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 180%;
+	padding-bottom: 40px;
+}
+
+h2 em {
+	font-weight: 800;
+	font-style: normal;
+}
+
+#portfolio .filter {
+	padding-bottom: 40px;
+}
+
+#portfolio .filter ul {
+	margin: 0px;
+	line-height: 60px;
+}
+
+
+#portfolio .filter li {
+	display: inline-block;
+	list-style: none;
+	background-color: transparent;
+	border: 0.5px solid #3E5869;
+	padding: 4px 10px;
+	margin-right: 5px;
+}
+
+#portfolio a {
+	font-size: 11px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+#portfolio li:hover {
+	background-color: #29BB9C;
+}
+
+.col-3 {
+	float: left;
+	display: inline-block;
+	background-size: cover;
+	background-image: url("http://placehold.it/480x300");
+	background-repeat: no-repeat;
+	width: 25%;
+	height: 33.3vh;
+}
+
+.col-6 {
+	display: inline-block;
+	width: 50%;
+	background-color: blue;
+}
+
+.col-12 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	height: 33.3vh;
+	background-color: yellow;
+	background-image: url("http://placehold.it/640x215");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.col-6_in {
+	float: left;
+	display: inline-block;
+	width: 50%;
+	height: 33.3vh;
+	background-color: white;
+	background-image: url("http://placehold.it/320x200");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.col-6-main {
+	float: left;
+	display: inline-block;
+	width: 50%;
+	height: 66.6vh;
+	background-image: url("http://placehold.it/640x420");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+/*.works > div.row {
+	display: inline-block;
+}*/
+
+
+/* ---- social media ---- */
+
+#footer {
+	padding: 600px 0;
+	background-color: #191D28;
+}
+
+ul.social-media {
+	margin: 0px;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.social-media li {
+	float: left;
+	margin-right: 10px;
+	padding: 8px 6px;
+	border-radius: 3px;
+}
+
+.social-media li a {
+	color: white;
+}
+
+.social-media li.rss{
+	background-color: #FBB32B;
+
+	}	
+
+.social-media li.twitter{
+	background-color: #20BCF2;
+
+	}	
