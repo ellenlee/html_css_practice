@@ -1,24 +1,108 @@
-.container {
-	max-width: 1180px;
-	margin: 0 auto;
-}
-
-
-.col-4 {
-	float: left;
-	width: 33.33333%;
-	padding: 0 10px;
+* {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#logo {
+	float: left;
+}
+
+#nav {
+	float: right;
+}
+
+#nav.open {
+	display: block;
+	float: none;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+  text-align: center;
+  background-color: #ccc;
+}
+
+#nav.open ul {
+	padding-top: 30%;
+}	
+
+#nav.open li {
+	float: none;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  padding: 0 10px;
+  line-height: 130%;
+}
+
+
+
+.col-3 {
+	float: left;
+	display: inline-block;
+	width: 32%;
+	padding: 10px 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* --- 以下是變動元素 ---*/
+
+#menu-trigger {
+	/*display: none;*/
+	position: fixed;
+	right: 10px;
+	top:20px;
+	width: 30px;
+}
+
+img {
+	width: 100%;
+
+}
+
 /* --- fluid ---*/
 
-
-@media (max-width: 1180px) {
-	.col-4 {
-		width: 100%;
-		padding: 10px 10px;
+@media (max-width: 1000px) {
+	.container {
+	max-width: 760px;
 	}
 }
+
+@media (max-width: 1000px) {
+	.container {
+	max-width: 760px;
+	}
+}
+
+@media (max-width: 310px) {
+	#nav {
+		display: none;
+	}
+	#menu-trigger {
+		display: block;
+	}
+}
+
+

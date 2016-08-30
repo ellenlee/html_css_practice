@@ -99,6 +99,7 @@ body {
 	font-size: 120px;
 	font-weight: 100;
 	box-sizing: border-box;
+	vertical-align: middle;
 
 }
 
@@ -257,6 +258,8 @@ h2 em {
 	background-repeat: no-repeat;
 	width: 25%;
 	height: 33.3vh;
+	margin:0; padding: 0;
+	overflow: hidden;
 }
 
 .col-6 {
