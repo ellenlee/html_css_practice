@@ -196,9 +196,6 @@ body {
 	line-height: 180%;
 }
 
-
-
-
 /* ---- portfolio ---- */
 
 #portfolio {
@@ -261,61 +258,43 @@ h2 em {
 	background-color: #29BB9C;
 }
 
+/* ---- Works ---- */
 
+.row div {
+	padding: 0;
+}
 
-.col-3 {
-	float: left;
-	display: inline-block;
+.col-lg-3, .col-sm-6, .col-xs-12 {
 	background-size: cover;
-	background-image: url("http://placehold.it/480x300");
+	background-image: url("http://loremflickr.com/480/300");
 	background-repeat: no-repeat;
-	width: 25%;
-	height: 33.3vh;
+	height: 200px;
 }
 
-.col-6 {
-	display: inline-block;
-	width: 50%;
-	background-color: blue;
+.out {
+	height: auto;
 }
-
-.col-12 {
-	float: left;
-	display: inline-block;
-	width: 100%;
-	height: 33.3vh;
-	background-color: yellow;
-	background-image: url("http://placehold.it/640x215");
+.shark {
+	background-image: url("http://loremflickr.com/640/215");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 200px;
 }
 
-
-.col-6_in {
-	float: left;
+.in {
+	background-image: url("http://lorempixel.com/320/200");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
 	display: inline-block;
-	width: 50%;
-	height: 33.3vh;
-	background-color: white;
-	background-image: url("http://placehold.it/320x200");
+}
+
+.big_pic {
+	height: 400px;
+	background-image: url("http://loremflickr.com/640/420");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-.col-6-main {
-	float: left;
-	display: inline-block;
-	width: 50%;
-	height: 66.6vh;
-	background-image: url("http://placehold.it/640x420");
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-
-
-/*.works > div.row {
-	display: inline-block;
-}*/
 
 
 /* ---- social media ---- */
